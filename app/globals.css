@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input {
+    @apply w-full rounded-xl border border-gray-200 px-4 py-2.5 text-sm text-gray-700 outline-none transition focus:border-red-400 focus:ring-2 focus:ring-red-100;
+  }
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
